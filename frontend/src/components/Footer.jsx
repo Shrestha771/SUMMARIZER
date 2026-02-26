@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className="bg-gray-800 text-white p-4 text-center ">
-      &copy;  News Summarizer. All rights reserved.
+    <div className="bg-sky-600 text-white p-2 text-center h-15">
+      &copy;  Text Summarizer. <br/> Made With ❤️
     </div>
   )
 }

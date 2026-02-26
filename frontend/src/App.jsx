@@ -1,14 +1,15 @@
 import { useEffect, useState } from 'react'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import Manager from './components/Manager'
+
 
 function App() {
  
   return (
     <>
       <Navbar/>
-
-
+      <Manager/>
       <Footer className="fixed bottom-0 w-full"/>
     </>
   )
