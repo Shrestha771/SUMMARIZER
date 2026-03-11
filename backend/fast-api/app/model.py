@@ -9,15 +9,15 @@ model = BartForConditionalGeneration.from_pretrained(MODEL_NAME)
 model.eval()
 
 LENGTH_MAP = {
-    20: 20,
-    50: 50,
-    100: 100,
-    150: 150,
-    200: 200,
-    250: 250,
-    300: 300,
-    400: 400,
-    500: 500
+    20: 39,
+    50: 99,
+    100: 199,
+    150: 299,
+    200: 399,
+    250: 499,
+    300: 599,
+    400: 799,
+    500: 999
 }
 
 def summarize_text(text: str, max_length: int = 150) -> str:
