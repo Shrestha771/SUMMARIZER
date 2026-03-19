@@ -1,4 +1,4 @@
-#  AI Document Summarizer
+#  Multi Content Summarizer
 
 An intelligent multi-format document summarization system that generates concise and meaningful summaries from:
 
